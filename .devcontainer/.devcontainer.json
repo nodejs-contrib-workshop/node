@@ -8,7 +8,8 @@
   ],
   "dockerFile": "Dockerfile",
   "initializeCommand": "docker system prune -f -a",
-  "updateContentCommand": "configure && make -j2",
+  "updateContentCommand": "configure && make -j4",
+  "onCreateCommand":"configure && make -j4",
   "settings": {
     "terminal.integrated.profiles.linux": {
       "zsh (login)": {
