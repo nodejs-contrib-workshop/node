@@ -21,7 +21,7 @@
             "version": "20",
             "additionalVersions": "18"
         },
-        "./local-features/nvs": "latest",
+//        "./local-features/nvs": "latest",
         "ghcr.io/devcontainers/features/python:1": {
             "version": "3.10.8",
             "additionalVersions": "3.9.16",
@@ -82,7 +82,7 @@
 //        "ghcr.io/devcontainers/features/dotnet",
         "ghcr.io/devcontainers/features/hugo",
         "ghcr.io/devcontainers/features/node",
-        "./local-features/nvs",
+//        "./local-features/nvs",
         "ghcr.io/devcontainers/features/conda",
         "./local-features/patch-conda",
         "ghcr.io/devcontainers/features/python",
